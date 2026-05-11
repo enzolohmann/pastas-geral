@@ -3,6 +3,10 @@ header {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    border: 5px solid red;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 a:link {
@@ -24,7 +28,6 @@ main {
     text-align: center;
 }
 
-
 ul {
     display: inline-block;
 }
@@ -34,4 +37,19 @@ footer {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    border: 5px solid red;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img {
+    border: 5px solid red ;
+    border-radius: 15px;
+}
+
+nav a:link {
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    text-decoration: none;
 }
