@@ -4,7 +4,6 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border: 5px solid red;
-    padding: 5px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -40,6 +39,7 @@ footer {
     border: 5px solid red;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -52,4 +52,23 @@ nav a:link {
     border-radius: 15px;
     background-color: whitesmoke;
     text-decoration: none;
+}
+
+mark {
+    color:red;
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: crimson;
+}
+
+h3 {
+    color: crimson;
+}
+
+nav {
+    border: 10px solid crimson;
+    background-color: crimson;
+    padding: 5px;
 }
